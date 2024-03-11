@@ -33,3 +33,7 @@ export const appConfig: ApplicationConfig = {
 ```
     provideHttpClient(withInterceptors([errorHandleInterceptor])),
 ```
+``
+do something like cache response or error handling it is very useful for handling http request
+although its behavior is like middleware but it is more like error logging or diary or handle data
+``
